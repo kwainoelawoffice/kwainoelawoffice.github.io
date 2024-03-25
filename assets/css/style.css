@@ -669,7 +669,7 @@ a:hover {
   position: relative;
   background: url(../images/bg-03.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed; }
   @media screen and (max-width: 767.98px) {

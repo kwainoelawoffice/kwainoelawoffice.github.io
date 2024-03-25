@@ -664,23 +664,29 @@ a:hover {
             .bg-02 .main-team-card .team-setup .team-items .team-user-social ol li:hover {
               color: #0c79cf;
               transform: translateX(-5px); }
+              
+/* Define the keyframes for the animation */
+@keyframes moveBackground {
+  0% { background-position: center top; } /* Initial position */
+  100% { background-position: center bottom; } /* Final position */
+}
 
+/* Apply the animation to the background */
 .bg-03 {
   position: relative;
   background: url(../images/bg-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed; 
-  padding: 120px 0px;
-  overflow: hidden;
-  z-index: 9; }
-  @media screen and (max-width: 768px) {
-    .slider {
-      padding: 50px 0px; } }
+  background-position: center top; /* Initial position */
+  animation: moveBackground 10s linear infinite; /* Apply animation */
+}
+
+  @media screen and (max-width: 767.98px) {
+    .bg-03 {
+      padding: 20px 0px; } }
   @media (min-width: 768px) and (max-width: 991.98px) {
-    .slider {
-      padding: 100px 0px; } }
+    .bg-03 {
+      padding: 0px 0px; } }
   .bg-03::before {
     position: absolute;
     content: "";
@@ -688,8 +694,7 @@ a:hover {
     top: 0;
     left: 0;
     height: 100%;
-    background: rgba(0, 0, 0, 0.397);
-    z-index: 2; }
+    background: rgba(0, 0, 0, 0.397); }
   .bg-03 .counsolting-main {
     flex-wrap: wrap;
     width: 100%;

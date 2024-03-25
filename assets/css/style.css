@@ -685,7 +685,7 @@ a:hover {
     top: 0;
     left: 0;
     height: 100%;
-    background: rgba(0, 0, 0, 0.9); }
+    background: rgba(0, 0, 0, 0.507); }
   .bg-03 .counsolting-main {
     flex-wrap: wrap;
     width: 100%;
@@ -776,14 +776,14 @@ a:hover {
             margin: 10px 0px; }
           .bg-03 .counsolting-main .consolting-sup .consolting-contant .heading b {
             font-size: 20px;
-            color: #ddd;
+            color: #f5f2f2;
             margin: 20px 0px;
             display: block; }
             @media screen and (max-width: 991.98px) {
               .bg-03 .counsolting-main .consolting-sup .consolting-contant .heading b {
                 margin: 10px 0px; } }
           .bg-03 .counsolting-main .consolting-sup .consolting-contant .heading p {
-            color: #ddd;
+            color: #fffffff5;
             font-size: 18px;
             letter-spacing: 0.5px;
             line-height: 27px; }
